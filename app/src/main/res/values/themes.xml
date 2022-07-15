@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.InternshipUIHW1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mild_blue</item>
+        <item name="colorPrimaryVariant">@color/light_turquoise</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/mild_blue_transparent</item>
+        <item name="colorSecondaryVariant">@color/deep_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/caviar_dreams</item>
+    </style>
+    
+    <style name="ToolbarTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="fontFamily">@font/caviar_dreams_bold</item>
+    </style>
+
+    <style name="Title">
+        <item name="fontFamily">@font/caviar_dreams_bold</item>
+       <item name="android:textSize">@dimen/h4</item>
+        <item name="android:textColor">@color/mild_blue</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sizes -->
+    <dimen name="padding8">8dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding32">32dp</dimen>
+    <dimen name="padding48">48dp</dimen>
+    <dimen name="padding64">64dp</dimen>
+    <dimen name="padding80">80dp</dimen>
+    <dimen name="padding128">128dp</dimen>
+
+    <!-- Text -->
+    <dimen name="h4">34sp</dimen>
+
+</resources>

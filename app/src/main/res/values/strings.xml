@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InternshipUI-HW1</string>
+    <string name="loginActivity">LoginActivity</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="repeatPassword">Repeat password</string>
+    <string name="loginHere">Already have an account? Login here</string>
+    <string name="register">Register</string>
+    <string name="registerHere">Don\'t have an account? Register here</string>
+    <string name="registerActivity">RegisterActivity</string>
+</resources>
