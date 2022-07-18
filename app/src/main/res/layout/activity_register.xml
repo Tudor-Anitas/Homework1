@@ -39,7 +39,7 @@
     <EditText
         android:id="@+id/usernameRegisterEditText"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/padding48"
+        android:layout_height="@dimen/padding56"
         android:layout_marginTop="@dimen/padding80"
         android:layout_marginStart="@dimen/padding16"
         android:layout_marginEnd="@dimen/padding16"
@@ -47,6 +47,7 @@
         android:background="@color/mild_blue_transparent"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textSize="@dimen/b2"
         android:hint="@string/username"
         android:drawableStart="@drawable/username"
         android:drawablePadding="@dimen/padding8"
@@ -54,41 +55,65 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <EditText
-        android:id="@+id/passwordRegisterEditText"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordInputLayout"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/padding48"
+        android:layout_height="@dimen/padding56"
         android:layout_marginTop="@dimen/padding16"
         android:layout_marginStart="@dimen/padding16"
         android:layout_marginEnd="@dimen/padding16"
-        android:padding="@dimen/padding8"
-        android:background="@color/mild_blue_transparent"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:hint="@string/password"
-        android:drawableStart="@drawable/password"
-        android:drawablePadding="@dimen/padding8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameRegisterEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/usernameRegisterEditText">
 
-    <EditText
-        android:id="@+id/passwordRepeatRegisterEditText"
+        <EditText
+            android:id="@+id/passwordRegisterEditText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding56"
+            android:background="@color/mild_blue_transparent"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="@dimen/padding8"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/b2"
+            android:padding="@dimen/padding8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordRepeatInputLayout"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/padding48"
+        android:layout_height="@dimen/padding56"
         android:layout_marginTop="@dimen/padding16"
         android:layout_marginStart="@dimen/padding16"
         android:layout_marginEnd="@dimen/padding16"
-        android:padding="@dimen/padding8"
-        android:background="@color/mild_blue_transparent"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:hint="@string/repeatPassword"
-        android:drawableStart="@drawable/password"
-        android:drawablePadding="@dimen/padding8"
+        app:hintTextAppearance="@style/InputLayoutHint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordRegisterEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout">
+
+        <EditText
+            android:id="@+id/passwordRepeatRegisterEditText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding56"
+            android:padding="@dimen/padding8"
+            android:background="@color/mild_blue_transparent"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="@dimen/b2"
+            android:hint="@string/repeatPassword"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="@dimen/padding8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
@@ -99,7 +124,7 @@
         android:text="@string/register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordRepeatRegisterEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordRepeatInputLayout" />
 
     <TextView
         android:id="@+id/goToLoginText"

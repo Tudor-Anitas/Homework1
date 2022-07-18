@@ -24,4 +24,8 @@
        <item name="android:textSize">@dimen/h4</item>
         <item name="android:textColor">@color/mild_blue</item>
     </style>
+
+    <style name="InputLayoutHint" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/b2</item>
+    </style>
 </resources>
