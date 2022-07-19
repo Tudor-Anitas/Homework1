@@ -49,7 +49,7 @@
         android:hint="@string/username"
         android:textColorHint="@color/mild_blue"
         android:drawableStart="@drawable/username"
-        android:background="@drawable/rounded_corners"
+        android:background="@drawable/rounded_corners4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginTextView" />
@@ -68,7 +68,7 @@
         android:hint="@string/password"
         android:textColorHint="@color/mild_blue"
         android:drawableStart="@drawable/password"
-        android:background="@drawable/rounded_corners"
+        android:background="@drawable/rounded_corners4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernameLoginEditText" />

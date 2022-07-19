@@ -1,0 +1,68 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/padding144"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding128"
+        android:layout_marginLeft="@dimen/padding16"
+        android:layout_marginRight="@dimen/padding16"
+        android:layout_marginBottom="@dimen/padding16"
+        app:cardBackgroundColor="@color/inactive_color"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/modelImageView"
+                android:layout_width="@dimen/padding80"
+                android:layout_height="@dimen/padding80"
+                android:layout_marginStart="@dimen/padding16"
+                android:background="@drawable/rounded_corners16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/modelName"
+                android:layout_width="@dimen/padding224"
+                android:layout_height="@dimen/padding16"
+                android:layout_marginTop="@dimen/padding32"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/modelImageView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/modelDescription"
+                android:layout_width="@dimen/padding224"
+                android:layout_height="@dimen/padding32"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/modelImageView"
+                app:layout_constraintTop_toBottomOf="@+id/modelName" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/padding16"
+                android:layout_height="@dimen/padding16"
+                android:layout_marginTop="@dimen/padding8"
+                android:layout_marginEnd="@dimen/padding8"
+                android:src="@drawable/delete"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

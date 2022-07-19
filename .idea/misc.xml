@@ -7,8 +7,12 @@
         <entry key="app/src/main/res/drawable/auth_button.xml" value="0.188" />
         <entry key="app/src/main/res/drawable/inactive_button.xml" value="0.188" />
         <entry key="app/src/main/res/drawable/rounded_corners.xml" value="0.188" />
+        <entry key="app/src/main/res/drawable/rounded_corners16.xml" value="0.183" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.3205787941261574" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23708038330078127" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.5479166666666667" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.4244791666666667" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.32570086356921074" />
       </map>
     </option>
   </component>

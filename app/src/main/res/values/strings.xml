@@ -9,4 +9,23 @@
     <string name="register">Register</string>
     <string name="registerHere">Don\'t have an account? Register here</string>
     <string name="registerActivity">RegisterActivity</string>
+
+    <!-- Mock data -->
+
+    <!-- titles -->
+    <string name="title1">Sloughi</string>
+    <string name="title2">Serbian Hound</string>
+    <string name="title3">Norrbottenspitz</string>
+    <string name="title4">Auvergne Pointer</string>
+    <string name="title5">Giant Schnauzer</string>
+    <string name="title6">Hellenic Hound</string>
+    <string name="title7">Collie Rough</string>
+    <!-- descriptions -->
+    <string name="desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="desc2">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc3">Dignissim cras tincidunt lobortis feugiat vivamus at augue eget</string>
+    <string name="desc4">Viverra aliquet eget sit amet tellus cras adipiscing</string>
+    <string name="desc5">Interdum varius sit amet mattis vulputate enim</string>
+    <string name="desc6">"In tellus integer feugiat scelerisque varius morbi enim nunc</string>
+    <string name="desc7">Donec ultrices tincidunt arcu non sodales neque sodales ut etiam</string>
 </resources>
